@@ -18,8 +18,8 @@ function sub()
             `;
             console.log(data)
         })
-    .catch(err => console.log(err))
-    if(!response){
-        alert("no se encontro tu pokemon")
-    };
+    .catch(err => {
+        console.log("err--> ", err)
+        alert("no se encontro tu pokemon");
+    })
 };
